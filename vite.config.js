@@ -1,3 +1,11 @@
 export default {
-  base: "/Website1/",
+  base: "/tailwind-portfolio/",
+  build: {
+    rollupOptions: {
+      input: {
+        index: "./index.html",
+        impressum: "./impressum.html",
+      },
+    },
+  },
 };
