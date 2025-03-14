@@ -1,3 +1,3 @@
 export default {
-  base: "/MrWeb/",
+  base: "/Website1/",
 };
